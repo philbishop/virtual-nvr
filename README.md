@@ -9,7 +9,7 @@ This software is free to use for home enthusiasts or for evalution by other deve
 ### OS Requirements
 The software requires a 64bit version of bullseye, preferably running on a Pi 4
 
-##N etwork Requirements
+### Network Requirements
 Make sure your Raspberry Pi is connected to the same network as your IP cameras.
 
 ### Install
