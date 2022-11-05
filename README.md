@@ -54,7 +54,7 @@ http://192.168.1.102:8127/web
 -------------------
 ```
 
-Note: If the IP address displayed is 127.0.0.1 then check your network connection for the LAN IP address. The pass that IP address as a parameter.
+Note: If the IP address displayed is 127.0.0.1 then check your network connection for the LAN IP address. Theh pass that IP address as a parameter.
 
 For example:
 ```sh
