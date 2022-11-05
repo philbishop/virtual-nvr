@@ -2,7 +2,7 @@
 Turn your Raspberry PI or spare Linux box into a 4 channel IP Camera Network Video Recorder.
 
 ### License
-This software is free to use for home enthusiasts or for evalution by other developers and system integrators looking to build their own products on the core funrtionality.
+This software is free to use for home enthusiasts or for evalution by developers and system integrators looking to build their own products on the core funrtionality.
 
 ## Installation
 
