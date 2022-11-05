@@ -1,4 +1,4 @@
-## Virtual Network Video Recorder for IP cameras
+## Network Video Recorder
 Turn your Raspberry PI or spare Linux box into a 4 channel IP Camera Network Video Recorder.
 
 ### License
