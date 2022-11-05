@@ -12,7 +12,7 @@ The software requires a 64bit version of bullseye, preferably running on a Pi 4
 ##N etwork Requirements
 Make sure your Raspberry Pi is connected to the same network as your IP cameras.
 
-### Download
+### Install
 
 ```sh
 wget -c https://xtreme-iot.online/CloudGlu/download/vnvr-linux-arm64.tar.gz -O - | tar -xz
@@ -52,6 +52,13 @@ For example: where 192.168.1.105 is the Raspberry Pi's IP address
 WEB BROWSER URL
 http://192.168.1.102:8127/web
 -------------------
+```
+
+Note: If the IP address displayed is 127.0.0.1 then check your network connection for the LAN IP address. The pass that IP address as a parameter.
+
+For example:
+```sh
+sudo ./nx-vnvr 192.168.1.105
 ```
 
 Best to use a different computer to access the web page.
