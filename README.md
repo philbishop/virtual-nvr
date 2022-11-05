@@ -121,6 +121,6 @@ Repeat for your remaining three cameras.
 ## iOS, MacOs and Window's client apps
 You can access the NVR via your iPhone, Mac or Windows PC using the NX-V IP Camera viewer app available for free in the respective app stores.
 
-[NX-V web page](https://nx-v.uk)
+[NX-V apps page](https://nx-v.uk)
 
 			
