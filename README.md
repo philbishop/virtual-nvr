@@ -42,7 +42,13 @@ sudo apt install -y gpac
 When you run the software it will output a web browser URL.
 
 For example: where 192.168.1.105 is the Raspberry Pi's IP address
-http://192.168.1.105:8127/web
+
+```sh
+-------------------
+WEB BROWSER URL
+http://192.168.1.102:8127/web
+-------------------
+```
 
 Best to use a different computer to access the web page.
 
