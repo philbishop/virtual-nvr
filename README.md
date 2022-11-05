@@ -4,13 +4,14 @@ Turn your Raspberry PI or spare Linux box into a 4 channel IP Camera Network Vid
 ### License
 This software is free to use for home enthusiasts or for evalution by other developers and system integrators looking to build their own products on the core funrtionality.
 
-## RNVR Installation
+## Installation
 
 ### Raspberry Pi OS Requirements
 The software requires a 64bit version of bullseye, preferably running on a Pi 4
 
 ### Linux OS Requirement
 This software requires an Intel 64bit processor to run.
+
 NOTE: The software has only been tested on Ubuntu 22.04
 
 ### Network Requirements
