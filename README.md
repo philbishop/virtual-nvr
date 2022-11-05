@@ -64,6 +64,25 @@ sudo ./nx-vnvr 192.168.1.105
 Best to use a different computer to access the web page.
 
 ### Camera discovery
+
+On startup the software wil do a quick multicast discovery check and output information to the console.
+
+For example:
+
+```sh
+TESTING MULTICAST DISCOVERY...
+MULTICAST DISCOVERY found 192.168.1.105
+MULTICAST DISCOVERY found 192.168.1.100
+MULTICAST DISCOVERY found 192.168.1.107
+MULTICAST DISCOVERY found 192.168.1.108
+MULTICAST DISCOVERY found 192.168.1.109
+MULTICAST DISCOVERY 5 cameras found
+```
+
+If no cameras are discovered, please check that the device running this software is connected to the same network as your cameras.
+
+## Web User Interface
+
 When you first connect to the web page the software will search for IP cameras on your network.
 
 If successful you will see the CAMERA CHANNELS window.
