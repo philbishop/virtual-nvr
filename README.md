@@ -26,7 +26,7 @@ cd vnvr-linux-arm64
 sudo chmod +x configure
 sudo ./configure
 ```
-##To run
+### To run
 ```sh
 sudo ./nx-vnvr
 ```
