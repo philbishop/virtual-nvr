@@ -1,18 +1,22 @@
 ## Virtual Network Video Recorder for IP cameras
-Turn your Raspberry PI or spare Linuz box into a 4 channel IP Camera Network Video Recorder.
+Turn your Raspberry PI or spare Linux box into a 4 channel IP Camera Network Video Recorder.
 
 ### License
 This software is free to use for home enthusiasts or for evalution by other developers and system integrators looking to build their own products on the core funrtionality.
 
-## Raspberry Pi NVR Installation
+## RNVR Installation
 
-### OS Requirements
+### Raspberry Pi OS Requirements
 The software requires a 64bit version of bullseye, preferably running on a Pi 4
+
+### Linux OS Requirement
+This software requires an Intel 64bit processor to run.
+NOTE: The software has only been tested on Ubuntu 22.04
 
 ### Network Requirements
 Make sure your Raspberry Pi is connected to the same network as your IP cameras.
 
-### Install
+### Raspberry Pi Install
 
 ```sh
 wget -c https://xtreme-iot.online/CloudGlu/download/vnvr-linux-arm64.tar.gz -O - | tar -xz
@@ -20,6 +24,17 @@ wget -c https://xtreme-iot.online/CloudGlu/download/vnvr-linux-arm64.tar.gz -O -
 ```sh
 cd vnvr-linux-arm64
 ```
+
+
+### Ubuntu Install
+
+```sh
+wget -c https://xtreme-iot.online/CloudGlu/download/vnvr-linux-ubuntu64.tar.gz -O - | tar -xz
+```
+```sh
+cd vnvr-linux-ubuntu64
+```
+
 
 ### Prepare
 ```sh
