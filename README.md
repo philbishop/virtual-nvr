@@ -1,7 +1,7 @@
 # Virtual Network Video Recorder for IP cameras
 Turn your Raspberry PI or spare Linuz box into a 4 channel IP Camera Network Video Recorder.
 
-# Licrense
+# License
 This software is free to use for home enthusiasts or for evalution by other developers and system integrators looking to build their own products on the core funrtionality.
 
 # Raspberry Pi NVR Installation
