@@ -1,4 +1,5 @@
 ## Network Video Recorder
+!(nx-vnvr-banner.jpg)
 Turn your Raspberry PI or spare Linux box into a 4 channel IP Camera Network Video Recorder.
 
 ### Features
