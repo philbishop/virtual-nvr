@@ -60,7 +60,9 @@ sudo ./nx-vnvr
 ```
 
 ### Install any missing dependencies
-If the software prompts you, please install missing dependences
+If the software prompts you, please install the missing dependences
+
+You may be prompted to install one or both of the following
 
 ```sh
 sudo apt install -y ffmpeg
