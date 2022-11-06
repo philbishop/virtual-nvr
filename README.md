@@ -25,50 +25,17 @@ NOTE: The software has only been tested on Ubuntu 22.04
 ### Network Requirements
 Make sure your Raspberry Pi is connected to the same network as your IP cameras.
 
-### Raspberry Pi Install
-
-#### Install and run
-As a single command
+### Raspberry Pi Install and Run
 
 ```sh
 wget -c https://xtreme-iot.online/CloudGlu/download/vnvr-linux-arm64.tar.gz -O - | tar -xz  && cd vnvr-linux-arm64 && sudo chmod +x configure && sudo ./configure && sudo ./nx-vnvr
 ```
 
-#### or as individual commands
+### Ubuntu Install and Run
 
 ```sh
-wget -c https://xtreme-iot.online/CloudGlu/download/vnvr-linux-arm64.tar.gz -O - | tar -xz
+wget -c https://xtreme-iot.online/CloudGlu/download/vnvr-linux-ubuntu64.tar.gz -O - | tar -xz && cd vnvr-linux-ubuntu64 && sudo chmod +x configure && sudo ./configure && sudo ./nx-vnvr
 ```
-
-```sh
-cd vnvr-linux-arm64
-```
-
-
-### Ubuntu Install
-
-```sh
-wget -c https://xtreme-iot.online/CloudGlu/download/vnvr-linux-ubuntu64.tar.gz -O - | tar -xz
-```
-```sh
-cd vnvr-linux-ubuntu64
-```
-
-
-### Prepare
-```sh
-sudo ./configure
-```
-
-```sh
-sudo ./configure
-```
-
-### To run
-```sh
-sudo ./nx-vnvr
-```
-
 ### Install any missing dependencies
 If the software prompts you, please install the missing dependences
 
@@ -79,9 +46,12 @@ sudo apt install -y ffmpeg
 sudo apt install -y gpac
 ```
 Then run the software
+
+### How to run application
 ```sh
 sudo ./nx-vnvr
 ```
+
 ### Camera discovery
 
 On startup the software wil do a quick multicast discovery check and output information to the console.
