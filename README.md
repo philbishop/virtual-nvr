@@ -99,7 +99,7 @@ http://192.168.1.102:8127/web
 -------------------
 ```
 
-Note: If the IP address displayed is 127.0.0.1 then check your network connection for the LAN IP address. Them pass that IP address as a parameter.
+Note: If the IP address displayed is 127.0.0.1 then check your network connection for the LAN IP address. Then pass that IP address as a parameter.
 
 For example:
 ```sh
