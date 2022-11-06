@@ -27,7 +27,8 @@ Make sure your Raspberry Pi is connected to the same network as your IP cameras.
 
 ### Raspberry Pi Install
 
-As a simgle command
+#### Install and run
+As a single command
 
 ```sh
 wget -c https://xtreme-iot.online/CloudGlu/download/vnvr-linux-arm64.tar.gz -O - | tar -xz  && cd vnvr-linux-arm64 && sudo chmod +x configure && sudo ./configure && sudo ./nx-vnvr
