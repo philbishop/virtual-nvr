@@ -15,7 +15,7 @@ This software is free to use for home enthusiasts or for evalution by developers
 ## Installation
 
 ### Raspberry Pi OS Requirements
-The software requires a 64bit version of bullseye, preferably running on a Pi 4 but has also works on the Raspberry Pi 3B+
+The software requires a 64bit version of bullseye, preferably running on a Pi 4 but also works on the Raspberry Pi 3B+
 
 ### Linux OS Requirement
 This software requires an Intel/AMD 64bit processor to run.
