@@ -4,13 +4,13 @@ Turn your Raspberry PI or spare Linux box into a 4 channel IP Camera Network Vid
 ### Features
 
 - 1 to 4 IP camera channels
-- Disoverable by 3rd party client software
+- Discoverable by 3rd party client software
 - Continuous recording
 - Motion detection
 - Video playback with motion events
 
 ### License
-This software is free to use for home enthusiasts or for evalution by developers and system integrators looking to build their own products on the core funrtionality.
+This software is free to use for home enthusiasts or for evaluation by developers and system integrators looking to build their own products on the core functionality.
 
 ### About
 I wrote this software initially as an experiment to see if it was possible to use a Raspberry Pi I had lying around and turn it into a NVR for my home IP Cameras. I also wanted to try out using .net core for the programming language as my previous work on Raspberry Pi was all written in Python.
@@ -65,7 +65,7 @@ sudo ./nx-vnvr
 
 ### Camera discovery
 
-On startup the software wil do a quick multicast discovery check and output information to the console.
+On start-up the software will do a quick multicast discovery check and output information to the console.
 
 For example:
 
@@ -95,7 +95,7 @@ http://192.168.1.102:8127/web
 -------------------
 ```
 
-Note: If the IP address displayed is 127.0.0.1 then check your network connection for the LAN IP address. Theh pass that IP address as a parameter.
+Note: If the IP address displayed is 127.0.0.1 then check your network connection for the LAN IP address. Them pass that IP address as a parameter.
 
 For example:
 ```sh
@@ -124,11 +124,15 @@ Repeat for your remaining three cameras.
 ### Latency in web interface
 There is some latency when viewing the live camera streams via the web browser user interface due to conversion to HLS.
 
-Use one the client apps below to view the streams more effeciently.
+Use one the client apps below to view the streams more efficiently.
 
-## iOS, MacOs and Window's client apps
+## iOS, MacOS and Window's client apps
 You can access the NVR via your iPhone, Mac or Windows PC using the free NX-V IP Camera viewer app available in the respective app store, links below.
 
 [NX-V apps page](https://nx-v.uk)
+
+			
+
+
 
 			
