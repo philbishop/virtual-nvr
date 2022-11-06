@@ -11,13 +11,15 @@ Turn your Raspberry PI or spare Linux box into a 4 channel IP Camera Network Vid
 ### License
 This software is free to use for home enthusiasts or for evalution by developers and system integrators looking to build their own products on the core funrtionality.
 
+---
+
 ## Installation
 
 ### Raspberry Pi OS Requirements
 The software requires a 64bit version of bullseye, preferably running on a Pi 4 but has also been tested on 3B+
 
 ### Linux OS Requirement
-This software requires an Intel 64bit processor to run.
+This software requires an Intel/AMD 64bit processor to run.
 
 NOTE: The software has only been tested on Ubuntu 22.04
 
@@ -86,6 +88,8 @@ MULTICAST DISCOVERY 5 cameras found
 ```
 
 If no cameras are discovered, please check that the device running this software is connected to the same network as your cameras.
+
+---
 
 ### Set up your cameras
 When you run the software it will output a web browser URL.
