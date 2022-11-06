@@ -23,7 +23,7 @@ This software requires an Intel/AMD 64bit processor to run.
 NOTE: The software has only been tested on Ubuntu 22.04
 
 ### Network Requirements
-Make sure your Raspberry Pi is connected to the same network as your IP cameras.
+Make sure your computer tgis software is installed on is connected to the same network as your IP cameras.
 
 ### Raspberry Pi Install and Run
 
