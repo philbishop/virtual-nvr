@@ -25,13 +25,15 @@ NOTE: The software has only been tested on Ubuntu 22.04
 ### Network Requirements
 Make sure the device this software is installed on is connected to the same network as your IP cameras.
 
-### Raspberry Pi Install and Run (latest version)
+### Raspberry Pi 
+#### Install and Run (latest version)
 
 ```sh
 wget -c https://xtreme-iot.online/CloudGlu/download/vnvr-linux-arm64.tar.gz -O - | tar -xz  && cd vnvr-linux-arm64 && sudo chmod +x configure && sudo ./configure && sudo ./nx-vnvr
 ```
 
-### Ubuntu Install and Run (latest version)
+### Ubuntu 
+#### Install and Run (latest version)
 
 ```sh
 wget -c https://xtreme-iot.online/CloudGlu/download/vnvr-linux-ubuntu64.tar.gz -O - | tar -xz && cd vnvr-linux-ubuntu64 && sudo chmod +x configure && sudo ./configure && sudo ./nx-vnvr
