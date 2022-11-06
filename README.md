@@ -118,6 +118,28 @@ The camera will now appear in the web page.
 
 Repeat for your remaining three cameras.
 
+##Start on boot (Raspberry Pi)
+
+```sh
+sudo nano /etc/rc.local
+```
+
+Then insert between fi and exit 0 where <INSTALL_PATH> if the path to where you extracted the install tar.gz
+
+```sh
+fi
+```
+
+```sh
+bash -c 'sudo <INSTALL_PATH>/nx-vnvr > <INSTALL_PATH>/boot.log 2>&1' &
+```
+
+```sh
+exit 0
+```
+
+
+
 ## iOS, MacOs and Window's client apps
 You can access the NVR via your iPhone, Mac or Windows PC using the NX-V IP Camera viewer app available for free in the respective app stores.
 
