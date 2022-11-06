@@ -25,7 +25,7 @@ NOTE: The software has only been tested on Ubuntu 22.04
 ### Network Requirements
 Make sure the device this software is installed on is connected to the same network as your IP cameras.
 
-### Raspberry Pi 
+### Raspberry Pi (bullseye)
 #### Install and Run (latest version)
 
 ```sh
