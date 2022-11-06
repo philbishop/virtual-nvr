@@ -63,6 +63,10 @@ From the install directory
 sudo ./nx-vnvr
 ```
 
+### Uninstall
+
+Simply delete the diretory created by the install command above, the software does not write to the file system outside of the install directory so there will be no dangling files left behind.
+
 ### Camera discovery
 
 On start-up the software will do a quick multicast discovery check and output information to the console.
