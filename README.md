@@ -23,7 +23,7 @@ This software requires an Intel/AMD 64bit processor to run.
 NOTE: The software has only been tested on Ubuntu 22.04
 
 ### Network Requirements
-Make sure your computer tgis software is installed on is connected to the same network as your IP cameras.
+Make sure the device this software is installed on is connected to the same network as your IP cameras.
 
 ### Raspberry Pi Install and Run
 
@@ -48,6 +48,9 @@ sudo apt install -y gpac
 Then run the software
 
 ### How to run application
+
+From the install directory
+
 ```sh
 sudo ./nx-vnvr
 ```
@@ -102,7 +105,7 @@ If successful you will see the CAMERA CHANNELS window.
 ### Camera Channels
 Start with Channel #1 and click "Select camera"
 
-Next select the camera from the dropdown list and enter the cameras' login details.
+Next select a camera from the dropdown list then enter the cameras' login details.
 
 Click "Connect" and if authenticated OK, then click "Save"
 
@@ -116,7 +119,7 @@ There is some latency when viewing the live camera streams via the web browser u
 Use one the client apps below to view the streams more effeciently.
 
 ## iOS, MacOs and Window's client apps
-You can access the NVR via your iPhone, Mac or Windows PC using the NX-V IP Camera viewer app available for free in the respective app stores.
+You can access the NVR via your iPhone, Mac or Windows PC using the free NX-V IP Camera viewer app available in the respective app store, links below.
 
 [NX-V apps page](https://nx-v.uk)
 
