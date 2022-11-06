@@ -110,6 +110,11 @@ The camera will now appear in the web page.
 
 Repeat for your remaining three cameras.
 
+### Latency in web interface
+There is some latency when viewing the live camera streams via the web browser user interface due to conversion to HLS.
+
+Use one the client apps below to view the streams more effeciently.
+
 ## iOS, MacOs and Window's client apps
 You can access the NVR via your iPhone, Mac or Windows PC using the NX-V IP Camera viewer app available for free in the respective app stores.
 
