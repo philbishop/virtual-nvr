@@ -3,15 +3,14 @@ Turn your Raspberry PI or spare Linux box into a 4 channel IP Camera Network Vid
 
 ### Features
 
-- 1-4 IP camera channels
+- 1 to 4 IP camera channels
+- Disoverable by 3rd party client software
 - Continuous recording
 - Motion detection
 - Video playback with motion events
 
 ### License
 This software is free to use for home enthusiasts or for evalution by developers and system integrators looking to build their own products on the core funrtionality.
-
----
 
 ## Installation
 
