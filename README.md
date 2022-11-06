@@ -12,6 +12,13 @@ Turn your Raspberry PI or spare Linux box into a 4 channel IP Camera Network Vid
 ### License
 This software is free to use for home enthusiasts or for evalution by developers and system integrators looking to build their own products on the core funrtionality.
 
+##About
+I wrote this software initially as an experiment to see if it was possible to use a Raspberry Pi I had lying around and turn it into a NVR for my home IP Cameras. I also wanted to try out using .net core for the programming language as my previous work on Raspberry Pi was all written in Python.
+
+
+It all came together nicely so decided to share the software for other Raspberry Pi and IP Camera enthusiasts to play with
+
+
 ## Installation
 
 ### Raspberry Pi OS Requirements
