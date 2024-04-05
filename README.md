@@ -29,14 +29,14 @@ Make sure the device this software is installed on is connected to the same netw
 #### Install and Run (latest version)
 
 ```sh
-wget -c https://xtreme-iot.online/CloudGlu/download/vnvr-linux-arm64.tar.gz -O - | tar -xz  && cd vnvr-linux-arm64 && sudo chmod +x configure && sudo ./configure && sudo ./nx-vnvr
+wget -c https://incax.com/vnvr/vnvr-linux-arm64.tar.gz -O - | tar -xz  && cd vnvr-linux-arm64 && sudo chmod +x configure && sudo ./configure && sudo ./nx-vnvr
 ```
 
 ### Ubuntu (linux x64)
 #### Install and Run (latest version)
 
 ```sh
-wget -c https://xtreme-iot.online/CloudGlu/download/vnvr-linux-ubuntu64.tar.gz -O - | tar -xz && cd vnvr-linux-ubuntu64 && sudo chmod +x configure && sudo ./configure && sudo ./nx-vnvr
+wget -c https://incax.com/vnvr/vnvr-linux-ubuntu64.tar.gz -O - | tar -xz && cd vnvr-linux-ubuntu64 && sudo chmod +x configure && sudo ./configure && sudo ./nx-vnvr
 ```
 ### Install any missing dependencies
 If the software prompts you, please install the missing dependences
