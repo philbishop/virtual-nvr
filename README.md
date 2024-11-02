@@ -1,5 +1,5 @@
 ## Network Video Recorder
-Turn your <a name="raspi">Raspberry PI</a> spare <a name="ubuntu">Linux</a> or <a name="macos">MacOS</a> device into a 4 channel IP Camera Network Video Recorder.
+Turn your Raspberry PI spare Linux or MacOSdevice into a 4 channel IP Camera Network Video Recorder.
 
 ### Features
 
@@ -29,14 +29,14 @@ macOS Ventura (13) (or higher)
 ### Network Requirements
 Make sure the device this software is installed on is connected to the same network as your IP cameras.
 
-### Raspberry Pi (bullseye) [link](#raspi)
+### Raspberry Pi (bullseye)
 #### Install and Run (latest version)
 
 ```sh
 wget -c https://incax.com/vnvr/vnvr-linux-arm64.tar.gz -O - | tar -xz  && cd vnvr-linux-arm64 && sudo chmod +x configure && sudo ./configure && sudo ./nx-vnvr
 ```
 
-### Ubuntu (linux x64) [link](#ubuntu)
+### Ubuntu (linux x64)
 #### Install and Run (latest version)
 
 ```sh
@@ -53,7 +53,7 @@ sudo apt install -y gpac
 ```
 Then run the software
 
-### MacOS  Ventura (13) or higher [link](#macos)
+### MacOS  Ventura (13) or higher
 #### Download and setup
 
 ```sh
