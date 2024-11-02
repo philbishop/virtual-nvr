@@ -1,5 +1,5 @@
 ## Network Video Recorder
-Turn your Raspberry PI or spare Linux box into a 4 channel IP Camera Network Video Recorder.
+Turn your Raspberry PI spare Linux or MacOS device into a 4 channel IP Camera Network Video Recorder.
 
 ### Features
 
@@ -17,10 +17,14 @@ This software is free to use for home enthusiasts or for evalution by developers
 ### Raspberry Pi OS Requirements
 The software requires a 64bit version of bullseye, preferably running on a Pi 4 but also works on the Raspberry Pi 3B+
 
-### Linux OS Requirement
+### Linux OS Requirements
 This software requires an Intel/AMD 64bit processor to run.
 
 NOTE: The software has only been tested on Ubuntu 22.04
+
+### MacOS Requirements
+A 64-bit Intel CPU or Apple Silicon CPU
+macOS Ventura (13) (or higher) 
 
 ### Network Requirements
 Make sure the device this software is installed on is connected to the same network as your IP cameras.
@@ -38,7 +42,7 @@ wget -c https://incax.com/vnvr/vnvr-linux-arm64.tar.gz -O - | tar -xz  && cd vnv
 ```sh
 wget -c https://incax.com/vnvr/vnvr-linux-ubuntu64.tar.gz -O - | tar -xz && cd vnvr-linux-ubuntu64 && sudo chmod +x configure && sudo ./configure && sudo ./nx-vnvr
 ```
-### Install any missing dependencies
+### Lunux Install any missing dependencies
 If the software prompts you, please install the missing dependences
 
 You may be prompted to install one or both of the following
@@ -49,14 +53,47 @@ sudo apt install -y gpac
 ```
 Then run the software
 
+### MacOS  Ventura (13) or higher 
+#### Download and setup
+
+```sh
+wget -c https://incax.com/vnvr/nx-vnvr-osx-install.tar.gz -O - | tar -xz && cd nx-vnvr-osx-install && chmod +x nx-vnvr
+```
+#### Install dependencies
+```sh
+brew update
+```
+```sh
+brew upgrade
+```
+```sh
+brew install ffmpeg
+```
+```sh
+brew install mediamtx
+```
+```sh
+brew install gpac
+```
+#### Run
+```sh
+./nx-vnvr
+```
+
+
 ### How to run application
 
 From the install directory
-
+#### Linux
+From installation folder
 ```sh
 sudo ./nx-vnvr
 ```
-
+#### MacOS
+From installation folder
+```sh
+./nx-vnvr
+```
 ### Camera discovery
 
 On startup the software wil do a quick multicast discovery check and output information to the console.
