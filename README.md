@@ -42,7 +42,7 @@ wget -c https://incax.com/vnvr/vnvr-linux-arm64.tar.gz -O - | tar -xz  && cd vnv
 ```sh
 wget -c https://incax.com/vnvr/vnvr-linux-ubuntu64.tar.gz -O - | tar -xz && cd vnvr-linux-ubuntu64 && sudo chmod +x configure && sudo ./configure && sudo ./nx-vnvr
 ```
-### Lunux Install any missing dependencies
+### Linux Install any missing dependencies
 If the software prompts you, please install the missing dependences
 
 You may be prompted to install one or both of the following
