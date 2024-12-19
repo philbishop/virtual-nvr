@@ -1,5 +1,5 @@
 ## Network Video Recorder
-Turn your Raspberry PI spare Linux or MacOSdevice into a 4 channel IP Camera Network Video Recorder.
+Turn your Raspberry PI spare Linux or MacOS device into a 4 channel IP Camera Network Video Recorder.
 
 ### Features
 
