@@ -54,11 +54,7 @@ sudo apt install -y gpac
 Then run the software
 
 ### MacOS  Ventura (13) or higher
-#### Download and setup
 
-```sh
-wget -c https://incax.com/vnvr/nx-vnvr-osx-install.tar.gz -O - | tar -xz && cd nx-vnvr-osx-install && chmod +x nx-vnvr
-```
 #### Install Homebrew
 
 https://docs.brew.sh/Installation
@@ -75,6 +71,10 @@ brew upgrade
 #### Install dependenicies
 
 ```sh
+brew install wget
+```
+
+```sh
 brew install ffmpeg
 ```
 ```sh
@@ -82,6 +82,12 @@ brew install mediamtx
 ```
 ```sh
 brew install gpac
+```
+
+#### Download and setup
+
+```sh
+wget -c https://incax.com/vnvr/nx-vnvr-osx-install.tar.gz -O - | tar -xz && cd nx-vnvr-osx-install && chmod +x nx-vnvr
 ```
 #### Run
 ```sh
