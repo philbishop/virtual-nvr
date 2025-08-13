@@ -89,10 +89,19 @@ brew install gpac
 ```sh
 wget -c https://incax.com/vnvr/nx-vnvr-osx-install.tar.gz -O - | tar -xz && cd nx-vnvr-osx-install && chmod +x nx-vnvr
 ```
-#### Run
+#### Run on Intel Mac
 ```sh
 ./nx-vnvr
 ```
+#### Before running on Silicon Mac
+```sh
+softwareupdate --install-rosetta
+```
+#### Run on Silicon Mac
+```sh
+arch -x86_64 ./nx-vnvr
+```
+
 
 
 ### How to run application
@@ -177,3 +186,4 @@ You can access the NVR via your iPhone, Mac or Windows PC using the free NX-V IP
 [NX-V apps page](https://nx-v.uk)
 
 			
+
