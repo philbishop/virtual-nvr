@@ -155,7 +155,7 @@ WEB BROWSER URL
 http://192.168.1.102:8127/web
 -------------------
 ```
-
+Note: on macOS the Opera browser works best for the web UI
 Note: If the IP address displayed is 127.0.0.1 then check your network connection for the LAN IP address. Theh pass that IP address as a parameter.
 
 For example:
@@ -193,6 +193,7 @@ You can access the NVR via your iPhone, Mac or Windows PC using the free NX-V IP
 [NX-V apps page](https://nx-v.uk)
 
 			
+
 
 
 
