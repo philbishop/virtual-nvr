@@ -117,6 +117,13 @@ From installation folder
 ```sh
 ./nx-vnvr
 ```
+
+### PATCH
+Grab app-min.js from /bin in the repository and place in 
+...
+nx-vnvr-xxx-install/web/UI
+...
+
 ### Camera discovery
 
 On startup the software wil do a quick multicast discovery check and output information to the console.
@@ -186,4 +193,5 @@ You can access the NVR via your iPhone, Mac or Windows PC using the free NX-V IP
 [NX-V apps page](https://nx-v.uk)
 
 			
+
 
