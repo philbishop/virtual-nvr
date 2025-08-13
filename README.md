@@ -120,9 +120,9 @@ From installation folder
 
 ### PATCH
 Grab app-min.js from /bin in the repository and place in 
-...
-nx-vnvr-xxx-install/web/UI
-...
+```sh
+<INSTALL_FOLDER>/web/UI
+```
 
 ### Camera discovery
 
@@ -193,5 +193,6 @@ You can access the NVR via your iPhone, Mac or Windows PC using the free NX-V IP
 [NX-V apps page](https://nx-v.uk)
 
 			
+
 
 
